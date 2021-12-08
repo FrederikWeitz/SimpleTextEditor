@@ -1,0 +1,27 @@
+.button.pressed { -fx-background-color: ghostwhite; }
+
+.button, .toggle-button {
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20px, 20px;
+}
+
+.button.loadfile { -fx-background-image: url(../richtext/page.png); }
+.button.savefile { -fx-background-image: url(../richtext/diskette.png); }
+.button.undo { -fx-background-image: url(../richtext/arrow_undo.png); }
+.button.redo { -fx-background-image: url(../richtext/arrow_redo.png); }
+.button.cut { -fx-background-image: url(../richtext/cut_red.png); }
+.button.copy { -fx-background-image: url(../richtext/page_copy.png); }
+.button.paste { -fx-background-image: url(../richtext/page_paste.png); }
+.button.bold { -fx-background-image: url(../richtext/text_bold.png); }
+.button.italic { -fx-background-image: url(../richtext/text_italic.png); }
+.button.underline { -fx-background-image: url(../richtext/text_underline.png); }
+.button.strikethrough { -fx-background-image: url(../richtext/text_strikethrough.png); }
+.button.insertimage { -fx-background-image: url(../richtext/picture_add.png); }
+.button.increaseIndent { -fx-background-image: url(../richtext/text_indent.png); }
+.button.decreaseIndent { -fx-background-image: url(../richtext/text_indent_remove.png); }
+
+.toggle-button.align-left { -fx-background-image: url(../richtext/text_align_left.png); }
+.toggle-button.align-center { -fx-background-image: url(../richtext/text_align_center.png); }
+.toggle-button.align-right { -fx-background-image: url(../richtext/text_align_right.png); }
+.toggle-button.align-justify { -fx-background-image: url(../richtext/text_align_justify.png); }
